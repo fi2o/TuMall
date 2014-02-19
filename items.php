@@ -465,7 +465,12 @@
 			}
 			
 	});
+	
+	console.log('hi!');
+	
 </script>			
+			
+			
 			
 <?php 
 	require_once('templates/foo.php');
