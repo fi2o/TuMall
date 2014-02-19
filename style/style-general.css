@@ -153,6 +153,7 @@ HOME
 		height: 300px;
 		margin: 30px auto 0;
 		border-radius: 3px;
+		box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	}
 	
 		.carouselImg{
@@ -192,36 +193,13 @@ HOME
 				position: relative;
 				display: inline-block;
 				cursor: pointer;
-				box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-				
+				/* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
+				border: solid 1px #B3B3B3;
 				-webkit-perspective: 	200px;
 				-moz-perspective: 		200px;
 				-ms-perspective: 		200px;
 				-o-perspective: 		200px;
-				perspective: 			200px;
-			}
-			
-				.carouselCtrl.active{
-					top: -6px;
-				}
-				
-				.controlPreview{
-					width: 150px;
-					border: solid 2px #FFF;
-					border-radius: 2px;
-					position: absolute;
-					left: 50%;
-					margin-left: -77px;
-					top: -60px;
-					opacity: 0;
-					visibility: hidden;
-					box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
-					
-					-webkit-transform: 	rotateX(-15deg);
-					-moz-transform: 	rotateX(-15deg);
-					-ms-transform: 		rotateX(-15deg);
-					-o-transform: 		rotateX(-15deg);
-					transform: 			rotateX(-15deg);				
+				perspective: 			200px;				
 				}
 					
 				.carouselCtrl:hover:not(.active){
