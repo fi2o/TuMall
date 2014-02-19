@@ -468,7 +468,7 @@
 	
 	console.log('hey, hello!');
 	
-	console.log("message two...")
+	console.log("message two!")
 	
 </script>			
 			
