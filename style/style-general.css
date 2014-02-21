@@ -3,9 +3,9 @@ HOME
  ------------------------------------------------------ */
 
 .landing #header{
-	background: none;
-	border: none;
 	margin-bottom: 0;
+	border: none;
+	background: none;
 }
 	
 	.landing .loginBtn{
@@ -17,17 +17,17 @@ HOME
 		}	
 	
 		.landing .menuTopRight{
-			width: auto;
-			margin: 0 auto;
-			height: 35px;
 			display: block;
+			margin: 0 auto;
+			width: auto;
+			height: 35px;
 		}
 		
 	.landing .btn-search{
-		height: 42px;
 		width: 84px;
-		font-size: 20px;
+		height: 42px;
 		text-align: center;
+		font-size: 20px;
 	}	
 
 .landing #body{
@@ -35,40 +35,40 @@ HOME
 }
 
 .homeLogo{
-	display: block;
 	left: auto;
-	width: 28%;
+	display: block;
 	margin: 0 auto 30px;
+	width: 28%;
 }
 
 
 .hmSrchWrap{
 	position: relative;
+	margin: 10px auto 0;
 	width: 610px;
 	height: 40px;
-	margin: 10px auto 0;
 	}
 
 	.hmSrchWrap .optsClicky{
 		position: absolute;
 		right: 0;
-		height:50px;
-		width: 50px;
 		overflow: hidden;
+		width: 50px;
+		height:50px;
 		background: none;
 		cursor: pointer;
 	
 	}
 
 		.hmSrchWrap .optsClicky:before{
-			content: '\F107';
-			font-family: 'FontAwesome';
 			position: absolute;
+			top: 5px;
+			left: 10px;
 			display: block;
 			color: #686868;
+			content: '\F107';
 			font-size: 2.5em;
-			left: 10px;
-			top: 5px;
+			font-family: 'FontAwesome';
 		}
 
 			.hmSrchWrap .optsClicky:hover:before{
@@ -78,30 +78,30 @@ HOME
 
 	.hmOptsWrap{
 		position: absolute;
-		z-index: 11;
-		right: 5px;
 		top: 52px;
+		right: 5px;
+		z-index: 11;
+		visibility: hidden;
+		padding: 10px;
 		width: 455px;
 		height: 200px;
 		border-top: solid 1px gray;
 		border-radius: 0 0 2px 2px;
-		padding: 10px;
 		background: #FFF;
 		background: rgba(255,255,255,0.95);
 		box-shadow: 0 4px 8px rgba(0,0,0,0.4), inset 0 1px 2px rgba(0,0,0,0.1);
 		opacity: 0;
-		visibility: hidden;
 	}
 	
 		.hmOptsWrap.shown{
-			opacity: 1;
 			visibility: visible;
+			opacity: 1;
 		}
 	
 		.hmOptsWrap label{
 			color: #686868;
-			font-size: 12px;
 			font-weight: 100;
+			font-size: 12px;
 			
 	}
 
@@ -111,9 +111,9 @@ HOME
 	height: 100%;
 	border: solid 1px #CCC;
 	border-radius: 4px;
-	font-size: 16px;
 	color: #AAA;
 	vertical-align: middle;
+	font-size: 16px;
 }	
 		
 	.hmSrchWrap .hmSrchTxt:focus{
@@ -122,21 +122,21 @@ HOME
 	}	
 	
 	.hmSrchWrap .hmSrchTxt[placeholder]:focus::-webkit-input-placeholder {
-		transition: opacity 0.3s ease;
 		opacity: 0.4;
+		transition: opacity 0.3s ease;
 	}
 	
 	.hmSrchWrap .btnSrch{
-		font-size: 24px;
-		left: 6px;
 		top: 10px;
+		left: 6px;
+		font-size: 24px;
 	}		
 	
 		.videoCont * {
 			display: block;
+			margin: 50px auto 25px;
 			width: 620px;
 			height: 349px;
-			margin: 50px auto 25px;
 			box-shadow:0 3px 10px rgba(0,0,0,0.3);
 		}
 	
@@ -144,9 +144,9 @@ HOME
 	.carouselWrap{
 		position: relative;
 		overflow: hidden;
+		margin: 30px auto 0;
 		width: 700px;
 		height: 300px;
-		margin: 30px auto 0;
 		border-radius: 3px;
 		box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 	}
@@ -170,25 +170,25 @@ HOME
 		
 		.controlWrap{
 			position: absolute;
+			right: 0;
 			bottom: 15px;
 			left: 0;
-			right: 0;
-			max-width: 160px;
-			margin: auto;
-			text-align: center;
 			z-index: 102;
+			margin: auto;
+			max-width: 160px;
+			text-align: center;
 		}
 		
 			.carouselCtrl{
-				width: 15px;
-				height: 15px;
-				margin: 0 3px;
-				background: #FFF;
-				border-radius: 50%;
 				position: relative;
 				display: inline-block;
-				cursor: pointer;
+				margin: 0 3px;
+				width: 15px;
+				height: 15px;
 				border: solid 1px #B3B3B3;
+				border-radius: 50%;
+				background: #FFF;
+				cursor: pointer;
 				
 				-webkit-perspective: 	200px;
 				-moz-perspective: 		200px;
@@ -202,16 +202,16 @@ HOME
 				}
 				
 				.controlPreview{
+					position: absolute;
+					top: -60px;
+					left: 50%;
+					visibility: hidden;
+					margin-left: -77px;
 					width: 150px;
 					border: solid 2px #FFF;
 					border-radius: 2px;
-					position: absolute;
-					left: 50%;
-					margin-left: -77px;
-					top: -60px;
-					opacity: 0;
-					visibility: hidden;
 					box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+					opacity: 0;
 					
 					-webkit-transform: 	rotateX(-15deg);
 					-moz-transform: 	rotateX(-15deg);
@@ -233,36 +233,36 @@ HOME
 				}
 				
 				@-webkit-keyframes previewJump{
-					70%{ -webkit-transform: rotateX(8deg); top: -85px;}
-					100%{ -webkit-transform: rotateX(0deg); opacity: 1; visibility: visible; top: -80px;}
+					70%{ top: -85px; -webkit-transform: rotateX(8deg);}
+					100%{ top: -80px; visibility: visible; opacity: 1; -webkit-transform: rotateX(0deg);}
 				}
 				
 				@-moz-keyframes previewJump{
-					70%{ -moz-transform: rotateX(8deg); top: -85px;}
-					100%{ -moz-transform: rotateX(0deg); opacity: 1; visibility: visible; top: -80px;}
+					70%{ top: -85px; -moz-transform: rotateX(8deg);}
+					100%{ top: -80px; visibility: visible; opacity: 1; -moz-transform: rotateX(0deg);}
 				}
 				
 				@-ms-keyframes previewJump{
-					70%{ -ms-transform: rotateX(8deg); top: -85px;}
-					100%{ -ms-transform: rotateX(0deg); opacity: 1; visibility: visible; top: -80px;}
+					70%{ top: -85px; -ms-transform: rotateX(8deg);}
+					100%{ top: -80px; visibility: visible; opacity: 1; -ms-transform: rotateX(0deg);}
 				} 
 
 				@-o-keyframes previewJump{
-					70%{ -o-transform: rotateX(8deg); top: -85px;}
-					100%{ -o-transform: rotateX(0deg); opacity: 1; visibility: visible; top: -80px;}
+					70%{ top: -85px; -o-transform: rotateX(8deg);}
+					100%{ top: -80px; visibility: visible; opacity: 1; -o-transform: rotateX(0deg);}
 				}
 				
 				@keyframes previewJump{
-					70%{ transform: rotateX(8deg); top: -85px;}
-					100%{ transform: rotateX(0deg); opacity: 1; visibility: visible; top: -80px;}
+					70%{ top: -85px; transform: rotateX(8deg);}
+					100%{ top: -80px; visibility: visible; opacity: 1; transform: rotateX(0deg);}
 				}
 				
 	
 
 .hmFeatGWrap{
 	position: relative;
-	width: 800px;
 	margin: 0 auto 100px;
+	width: 800px;
 }
 
 	.featContWrap{
@@ -277,23 +277,23 @@ HOME
 			.featuredItemLink{
 				display: block;
 				margin: 10px auto 0;
-				width: 135px;
-				font-size: 14px;
-				color: #FFF;
-				font-weight: 400;
 				padding: 5px;
-				text-shadow: 0 1px rgba(0,0,0,.1);
-				border-radius: 4px;
+				width: 135px;
 				border: solid 1px #D55151;
+				border-radius: 4px;
 				background: #f55f5f;
 				box-shadow: 0 1px #D55151, inset 0 -1px rgba(255,255,255,0.1);
+				color: #FFF;
+				text-shadow: 0 1px rgba(0,0,0,.1);
+				font-weight: 400;
+				font-size: 14px;
 			}
 			
 			.featuredItemPrice{
-				color: #F55F5F;
-				background: #fafaf0;
 				border: solid 1px #F0BC79;
+				background: #fafaf0;
 				box-shadow: none;
+				color: #F55F5F;
 				text-shadow: none;
 				font-weight: 600;
 			}
@@ -301,42 +301,42 @@ HOME
 		
 		.hmTabsWrap{
 			position: absolute;
-			z-index: 10;
 			top: 10px;
 			left: 20%;
+			z-index: 10;
 		}
 
 		
 			.featTab{
 				position: relative;
 				padding: 3px 10px 3px 35px;
-				font-size: 20px;
 				border-bottom: dashed 1px #CCC;
 				font-weight: 400;
+				font-size: 20px;
 			}
 			
 				.featTab i{
-					color: #FFF;
-					left: 4px;
-					top: 3px;
 					position: absolute;
+					top: 3px;
+					left: 4px;
 					width: 26px;
 					height: 26px;
-					text-align: center;
-					background: #F55F5F;
 					border-radius: 50%;
-					line-height: 25px;
+					background: #F55F5F;
+					color: #FFF;
+					text-align: center;
 					font-size: 17px;
+					line-height: 25px;
 				}
 			
 		.hmFeatItm{
 			position: relative;
 			display: inline-block;
-			vertical-align: top;
+			margin: 12px 0 12px 10px;
 			width: 250px;
 			height: 100px;
-			margin: 12px 0 12px 10px;
 			border-radius: 6px;
+			vertical-align: top;
 		}
 		
 		.hmFeatItm.stores{
@@ -345,25 +345,25 @@ HOME
 
 			.featuredPreview{
 				display: inline-block;
-				height: 85px;
+				overflow: hidden;
 				width: 85px;
+				height: 85px;
+				border: solid 1px #CCC;
 				border-radius: 4px;
 				background: #FFF;
-				border: solid 1px #CCC;
 				vertical-align: middle;
 				text-align: center;
 				line-height: 82px;
-				overflow: hidden;
 			}
 			
 			.storePreview{
+				display: block;
+				overflow: hidden;
+				margin: 3px auto;
 				width: 60px;
 				height: 60px;
-				border-radius: 50%;
 				border: solid 2px #FFF;
-				display: block;
-				margin: 3px auto;
-				overflow: hidden;
+				border-radius: 50%;
 				line-height: normal;
 			}
 
@@ -373,16 +373,16 @@ HOME
 				}
 			
 				.featuredPreview img{
+					display: inline-block;
 					max-width: 100%;
 					max-height: 100%;
-					display: inline-block;
 				}
 
 			
 			.ftItmName{
 				display: inline-block;
-				vertical-align: top;
 				width: 55%;
+				vertical-align: top;
 				font-size: 13px;
 			}
 
@@ -390,28 +390,28 @@ HOME
 				position: absolute;
 				bottom: 0;
 				left: 0;
-				background: #FFF;
+				padding: 5px 0;
 				width: 100%;
+				border-radius: 0 0 4px 4px;
+				background: #FFF;
 				text-align: center;
 				font-weight: 600;
-				padding: 5px 0;
-				border-radius: 0 0 4px 4px;
 				font-size: 14px;
 			}
 			
 	
 			.hmFeatItm .featuredItemPrice{
 				position: absolute;
-				bottom: 15px;
 				right: 10px;
-				font-size: 13px;
-				font-weight: 600;
-				padding: 3px 5px;
+				bottom: 15px;
 				margin: 5px 0 0 10px;
-				color: #F55F5F;
-				background: #fafaf0;
+				padding: 3px 5px;
 				border: solid 1px #FFE0C2;
 				border-radius: 3px;
+				background: #fafaf0;
+				color: #F55F5F;
+				font-weight: 600;
+				font-size: 13px;
 				
 			}
 
@@ -421,20 +421,21 @@ ITEMS DETAIL
  ------------------------------------------------------ */
 
 .items-sect-wrap{
-	width: 78%;
-	min-width: 0;
 	display: inline-block;
-	vertical-align: top;
 	margin-right: 1.5%;
+	min-width: 0;
+	width: 78%;
+	vertical-align: top;
 }
 
 #itemDetailsWrapper{
 	position: relative;
-	min-height: 220px;
 	margin-bottom: 15px;
+	min-height: 220px;
 }
 
 	.deletedItemMsg{
+		position: relative;
 		margin-bottom: 20px;
 		padding: 5px 5px 5px 55px;
 		border: solid 1px #459CE2;
@@ -442,50 +443,49 @@ ITEMS DETAIL
 		background: #51B2FF;
 		color: #FFF;
 		font-size: 16px;
-		position: relative;
 	}
 	
 		.deletedItemMsg:before{
-			content: '\F05A';
-			font-family: 'FontAwesome';
 			position: absolute;
-			font-size: 22px;
-			left: 20px;
 			top: 4px;
+			left: 20px;
+			content: '\F05A';
+			font-size: 22px;
+			font-family: 'FontAwesome';
 		}
 	
 	.itemPreviewsWrapper{
 		position: relative;
-		width: 40%;
 		display: inline-block;
+		width: 40%;
 		vertical-align: top;
 	}
 	
 		 .itemMainPrev{
 		 	padding: 1%;
-			background: #FFF;
 			border: solid 1px #EEE;
 			border-radius: 4px;
+			background: #FFF;
 		}
 		
 			.itemMainPrev img{
-				max-width: 100%;
-				max-height: 500px;
 				display: block;
 				margin: 0 auto;
+				max-width: 100%;
+				max-height: 500px;
 				border-radius: 2px;
 			}
 			
 			.actionBar{
 				position: relative;
-				width: 230px;
 				margin-top: 10px;
+				width: 230px;
 			}
 			
 				.actBarTitle{
+					display: block;
 					color: #686868;
 					font-size: 13px;
-					display: block;
 				}
 			
 				.shareToBtn{
@@ -496,29 +496,29 @@ ITEMS DETAIL
 						
 				.favWrap{
 					display: inline-block;
-					background: #FFF;
-					border: solid 1px #CCC;
-					min-width: 60px;
-					text-align: center;
-					color: #686868;
-					box-shadow: 0 1px 4px rgba(0,0,0,.05);
-					border-radius: 4px;
 					padding: 0 5px;
+					min-width: 60px;
+					border: solid 1px #CCC;
+					border-radius: 4px;
+					background: #FFF;
+					box-shadow: 0 1px 4px rgba(0,0,0,.05);
+					color: #686868;
+					text-align: center;
 					cursor: pointer;
 				}	
 				
 				
 				.storeDetailsWrap .favWrap{
 					position: absolute;
-					right: 10px;
 					top: 10px;
+					right: 10px;
 					box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
 				}
 				
 				.favWrap:hover, .isFavorited{
+					border-color: #E6A400;
 					background: #FFBA0A;
 					color: #FFF;
-					border-color: #E6A400;
 				}
 				
 				.faveBtn{
@@ -532,13 +532,13 @@ ITEMS DETAIL
 					}
 				
 					.faveBtn:after{
-						content: '\F067';
-						font-family: 'FontAwesome';
 						position: absolute;
-						right: 4px;
 						top: 3px;
-						font-size: 8px;
+						right: 4px;
 						color: #0AB1FF;
+						content: '\F067';
+						font-size: 8px;
+						font-family: 'FontAwesome';
 					}
 					
 						.favWrap:hover .faveBtn:after, .isFavorited .faveBtn:after{
@@ -551,14 +551,14 @@ ITEMS DETAIL
 		}
 	
 			.itemSmallerPrevWrapper .smallPrev{
-				display: inline-block;
 				position: relative;
+				display: inline-block;
+				overflow: hidden;
 				width: 50px;
 				height: 50px;
-				overflow: hidden;
-				background: #FFF;
 				border: solid 2px #EEE;
-				border-radius: 3px
+				border-radius: 3px;
+				background: #FFF;
 			}
 				
 				.smallPrev.selectedItem{
@@ -570,22 +570,22 @@ ITEMS DETAIL
 				}
 		
 	.itemInfoWrapper{
-		width: 36.5%;
 		display: inline-block;
 		margin-left: 0.5%;
+		width: 36.5%;
 	}		
 				
 		.itemInfoWrapper .itemName{
-			font-size: 22px;
 			display: block;
 			color: #555;
+			font-size: 22px;
 		}		
 	
 		.itemInfoWrapper .datePosted, .itemID{
 			display: block;
-			font-size: 12px;
-			color: #555;
 			margin: 5px 0;
+			color: #555;
+			font-size: 12px;
 		}
 		
 			.itemInfoWrapper .itemID a{
@@ -594,54 +594,54 @@ ITEMS DETAIL
 	
 		.itemInfoWrapper .itemPrice{
 			display: block;
-			font-size: 18px;
-			color: #686868;
 			margin: 5px 0;
+			color: #686868;
+			font-size: 18px;
 		}
 	
 	
 	.sellerInfoWrapper{
 		position: relative;
-		width: 22%;
-		max-width: 220px;
 		float: right;
-		padding: 60px 6px 6px;
-		background: #FFF;
-		border-radius: 4px;
-		border: solid 1px #EEE;
-		text-align: right;
-		box-sizing: border-box;
-		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 60px 6px 6px;
+		max-width: 220px;
+		width: 22%;
+		border: solid 1px #EEE;
+		border-radius: 4px;
+		background: #FFF;
+		text-align: right;
 	}
 
 		.sellerDet{
 			display: block;
 			margin: 8px 0;
-			font-size: 14px;
-			font-weight: 400;
-			color: #686868;
 			padding-right: 5px;
+			color: #686868;
 			word-break: break-all;
+			font-weight: 400;
+			font-size: 14px;
 		}
 
 		.sellerInfoHead{
-			text-align: center;
 			display: block;
-			font-weight: 100;
-			color: #FFF;
 			background: #51B2FF;
+			color: #FFF;
+			text-align: center;
+			font-weight: 100;
 		}
 
 		.sellerLogo{
 			position: absolute;
 			top: 10px;
 			left: 50%;
+			overflow: hidden;
 			margin-left: -25px;
 			width: 50px;
 			height: 50px;
 			border-radius: 50%;
-			overflow: hidden;
 		}
 		
 			.sellerLogoImg{
@@ -650,17 +650,17 @@ ITEMS DETAIL
 			}
 
 			.sellerInfoWrapper .sellerType{
-				width: 35px;
 				position: absolute;
-				left: 10px;
 				top: 10px;
+				left: 10px;
+				width: 35px;
 			}
 		
 		.sellerName{
-			font-size: 16px;
-			font-weight: 600;
 			padding: 2px 5px;
 			text-align: center;
+			font-weight: 600;
+			font-size: 16px;
 		}
 		
 		.sellerDet i{
@@ -671,34 +671,34 @@ ITEMS DETAIL
 	
 #itemDescriptionWrapper{
 	position: relative;
-	min-height: 250px;
 	padding: 15px;
-	background: #FFF;
-	color: #686868;
-	border-radius: 6px;
+	min-height: 250px;
 	border: solid 1px #EEE;
+	border-radius: 6px;
+	background: #FFF;
 	box-shadow: 0 1px 10px rgba(0,0,0,0.04);
+	color: #686868;
 }
 
 	.itemDescrTitle{
-		font-size: 18px;
 		margin-bottom: 5px;
+		font-size: 18px;
 	}
 
 	#itemDescriptionWrapper iframe{
-		border: none;
 		width: 100%;
 		height: 600px;
+		border: none;
 	}
 	
 /* Coupons offers */	
 	
 .cupons-wrap{
+	display: inline-block;
+	margin-right: 1.5%;
 	min-width: 0;
 	width: 78%;
-	display: inline-block;
 	vertical-align: top;
-	margin-right: 1.5%;
 }	
 
 	.couponInfoWrap{
@@ -710,8 +710,8 @@ ITEMS DETAIL
 		}
 
 		.couponInfoWrap .fldLbl{
-			font-size: 13px;
-			color: #888;	
+			color: #888;
+			font-size: 13px;	
 		}
 
 		.couponShortDescr{
@@ -730,15 +730,15 @@ ITEMS DETAIL
 		
 		.couponTimer{
 			display: inline-block;
-			background: #F7C96E;
-			color: #FFEDDB;
-			font-size: 22px;
+			margin-bottom: 15px;
 			padding: 5px 8px;
 			border: solid 1px #F5B83D;
 			border-radius: 4px;
-			margin-bottom: 15px;
-			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+			background: #F7C96E;
 			box-shadow: inset 0 -1px rgba(255, 255, 255, 0.1), 0 1px #F5B83D, 0 1px 4px rgba(0, 0, 0, 0.2);
+			color: #FFEDDB;
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+			font-size: 22px;
 		}
 		
 			.couponTimer *{
@@ -751,53 +751,53 @@ ITEMS DETAIL
 		}
 			
 			.qtyBox{
+				visibility: hidden;
+				margin: 0;
+				margin-left: -20px;
+				padding: 9px 7px;
+				width: 35px;
+				width: 0;
+				outline: none;
 				border: solid 1px #CCC;
 				border-radius: 4px;
 				color: #686868;
-				font-size: 16px;
-				padding: 9px 7px;
-				margin: 0;
-				margin-left: -20px;
-				width: 35px;
 				text-align: center;
-				width: 0;
+				font-size: 16px;
 				opacity: 0;
-				visibility: hidden;
-				outline: none;
 			}
 			
 				.qtyBox.shown{
-					width: 35px;
-					opacity: 1;
 					visibility: visible;
 					margin-left: 0;
+					width: 35px;
+					opacity: 1;
 				}
 			
 			.actionBtn{
-				color: #FFF;
+				display: inline-block;
+				padding: 7px 14px;
+				border: solid 1px #008CFF;
 				border-radius: 4px;
 				background: #33A3FF;
-				border: solid 1px #008CFF;
-				font-size: 18px;
-				padding: 7px 14px;
 				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+				color: #FFF;
+				font-size: 18px;
 				cursor: pointer;
-				display: inline-block;
 			}
 			
 				.actionBtn:hover{
-					background: #66BAFF;
 					border-color: #33A3FF;
+					background: #66BAFF;
 				}
 			
 				.endOrder{
-					background: #73DD90;
 					border-color: #32CD5B;
+					background: #73DD90;
 				}
 				
-					.endOrder:hover{
-						background: #7CE999;	
+					.endOrder:hover{	
 						border-color: #32CD5B;
+						background: #7CE999;
 					}
 					
 			.reserveCouponForm ~ .validation-label{
@@ -815,14 +815,14 @@ ITEMS DETAIL
 			
 	.descrip-area{
 		display: inline-block;
-		vertical-align: top;
-		width: 45%;
 		float: left;
+		width: 45%;
+		vertical-align: top;
 	}		
 	
 		.descrip-sub-head{
-			color: #F55F5F;
 			margin: 10px 0 0;
+			color: #F55F5F;
 			font-size: 18px;
 		}
 		
@@ -832,16 +832,16 @@ ITEMS DETAIL
 			}
 	
 	.map-wrap{
-		width: 50%;
 		display: inline-block;
 		float: right;
-		border-left: dashed 1px #DDD;
 		padding-left: 1.2%;
+		width: 50%;
+		border-left: dashed 1px #DDD;
 	}
 	
 		.map-canvas{
-			height: 300px;
 			margin-top: 10px;
+			height: 300px;
 		}
 
 /* coupons end reservation */
@@ -851,28 +851,28 @@ ITEMS DETAIL
 }
 
 .couponResumeWrap{
+	margin: 15px 0;
+	padding: 10px;
+	max-width: 375px;
 	border: solid 1px #CCC;
 	border-radius: 4px;
-	margin: 15px 0;
-	max-width: 375px;
-	padding: 10px;
 	text-align: center;
 	
 }
 	
 	.couponResumeID{
-		border-radius: 3px;
-		padding: 8px 3px;
-		font-size: 18px;
 		display: inline-block;
+		padding: 8px 3px;
 		width: 135px;
-		font-weight: 600;
+		border-radius: 3px;
 		letter-spacing: 1px;
+		font-weight: 600;
+		font-size: 18px;
 	}
 	
 	.coupEndSecondary a{
-		font-weight: 600;
 		text-decoration: underline;
+		font-weight: 600;
 	}
 	
 	.coupEndSecondary li{
@@ -898,33 +898,33 @@ ITEMS DETAIL
 }
 
 .couponsList .featItmWrap{
-	margin: 0;
-	width: 17%;
 	display: inline-block;
-	padding: 0 10px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: 	border-box;
 	box-sizing: 		border-box;
+	margin: 0;
+	padding: 0 10px;
+	width: 17%;
 }
 
 
 /* Category list */
 
 	.allCatHeading{
-		font-size: 24px;
 		margin-bottom: 20px;
+		font-size: 24px;
 	}
 	
 	.categoryWrap{
 		display: inline-block;
-		vertical-align: top;
 		margin: 0 40px 40px 0;
+		vertical-align: top;
 		
 	}
 	
 	.subCategoryHeading{
-		font-size: 20px;
 		font-weight: 400;
+		font-size: 20px;
 	}
 
 		.subCategoryList a{
@@ -932,8 +932,8 @@ ITEMS DETAIL
 		}
 		
 			.allCategoriesWrap a:hover{
-				text-decoration: underline;
 				color: #686868;
+				text-decoration: underline;
 			}
 
 /* ------------------------------------------------------
@@ -943,14 +943,14 @@ SEARCH RESULTS
 
 #categoryFilterWrapper{
 	display: inline-block;
-	vertical-align: top;
-	width: 17%;
-	padding: 0 10px;
-	min-height: 150px;
-	border-right: dashed 1px #CCC;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: 	border-box;
 	box-sizing: 		border-box;
+	padding: 0 10px;
+	min-height: 150px;
+	width: 17%;
+	border-right: dashed 1px #CCC;
+	vertical-align: top;
 }
 
 	#categoryFilterWrapper > div{
@@ -958,42 +958,42 @@ SEARCH RESULTS
 	}
 
 	#categoryFilterWrapper .categoryPane{
+		min-height: 40px;
 		width: 100%;
 		height: auto;
-		min-height: 40px;
 	}
 
 		.category-heading{
-			font-size: 18px;
-			font-weight: 400;
 			margin-bottom: 5px;
 			color: #F55F5F;
+			font-weight: 400;
+			font-size: 18px;
 		}
 
 		.resultsSubCategory{
-			font-size: 14px;
-			font-weight: 600;
 			padding: 0 5px;
 			color: #686868;
+			font-weight: 600;
+			font-size: 14px;
 		}
 		
 			.last-category{
-				font-weight: 400;
 				color: #777;
+				font-weight: 400;
 			}
 
 			.categoryPane .view-more{
 				display: block;
-				font-size: 13px;
-				font-weight: 400;
 				margin-top: 5px;
 				text-decoration: underline;
+				font-weight: 400;
+				font-size: 13px;
 			}
 
 			.resultsSubCategory i{
-				background: #EEE;
 				padding: 1px 5px;
 				border-radius: 10px;
+				background: #EEE;
 				box-shadow: inset 0 1px 1px #CCC, 0 1px #FFF;
 			}
 			
@@ -1002,8 +1002,8 @@ SEARCH RESULTS
 		}	
 
 			.categoryPane ul li{
-				font-size: 13px;
 				padding: 3px 0;
+				font-size: 13px;
 			}
 			
 			.categoryPane ul li:hover{
@@ -1012,91 +1012,91 @@ SEARCH RESULTS
 			
 	#categoryFilterWrapper .filterPane{
 		
+		min-height: 40px;
 		width: 100%;
 		height: auto;
-		min-height: 40px;
 		
 	}
 
 .resultsDisplayArea{
 	position: relative;
 	display: inline-block;
-	vertical-align: top;
-	width: 60%;
-	min-height: 40px;
 	margin: 0 1% 25px;
+	min-height: 40px;
+	width: 60%;
+	vertical-align: top;
 }
 
 	.selectedCategory{
 		margin-bottom: 10px;
+		padding: 5px 10px;
+		border-bottom: solid 2px #F33F3F;
+		border-radius: 3px 3px 1px 1px;
+		background: #F55F5F;
+		color: #FFF;
 		font-weight: 100;
 		font-size: 20px;
-		background: #F55F5F;
-		border-bottom: solid 2px #F33F3F;
-		color: #FFF;
-		padding: 5px 10px;
-		border-radius: 3px 3px 1px 1px;
 	}
 
 .resultsFilterTopHeader{
-	padding: 10px 15px;
 	margin-bottom: 20px;
-	background: #FBFBFB;
+	padding: 10px 15px;
 	border: solid 1px #DDD;
 	border-radius: 4px;
+	background: #FBFBFB;
 }
 
 	.resultsCount{
 		float: left;
-		font-size: 14px;
-		font-weight: 400;
-		color: #686868;
 		padding: 4px 0;
+		color: #686868;
+		font-weight: 400;
+		font-size: 14px;
 	}
 
 	.togglesWrapper{
 		position: relative;
+		top: -1px;
+		float: right;
+		margin: 0 10px;
 		width: 70px;
 		height: auto;
-		top: -1px;
-		margin: 0 10px;
-		float: right;
 	}
 
 		.displayModeToggle{
 			position: relative;
 			display: block;
 			float: left;
-			background: #f5f5f5;
-			color: #999;
+			padding: 5px 8px 4px;
 			border: solid 1px #BBB;
 			border-radius: 3px 0 0 3px;
+			background: #f5f5f5;
+			box-shadow: 0 1px rgba(0,0,0,0.1), inset 0 1px 2px white, 0 2px 3px rgba(0,0,0,0.1);
+			color: #999;
 			text-shadow: 0 1px white;
 			font-size: 14px;
-			padding: 5px 8px 4px;
-			box-shadow: 0 1px rgba(0,0,0,0.1), inset 0 1px 2px white, 0 2px 3px rgba(0,0,0,0.1);
 			cursor: pointer;
 		}
 	
 			.displayModeToggle.two{
-				border-radius: 0 3px 3px 0;
 				border-left: none;
+				border-radius: 0 3px 3px 0;
 			}
 			
 			.displayModeToggle.active{
 				background: #DDD;
+				box-shadow: inset 0 1px 1px rgba(0,0,0,0.1), 0 1px 1px #FFF;
 				color: #F5F5F5;
 				text-shadow: 0 1px 2px #999;
-				box-shadow: inset 0 1px 1px rgba(0,0,0,0.1), 0 1px 1px #FFF;
 				
 			}
 			
 		.displayModeToggle:active{
+			padding-top: 5px;
 			background: #CCC;
+			box-shadow: inset 0 1px 1px rgba(0,0,0,0.3), 0 1px 2px white;
 			color: #FEFEFE;
 			text-shadow: 0 1px 1px #666;
-			padding-top: 5px;
-			box-shadow: inset 0 1px 1px rgba(0,0,0,0.3), 0 1px 2px white;
 		}	
 	
 	.showXResults{
@@ -1112,9 +1112,9 @@ SEARCH RESULTS
 			.itemsQty{
 				float: left;
 				padding: 4px 7px;
-				color: #999;
 				border: solid 1px transparent;
 				border-right-color: #CCC;
+				color: #999;
 				cursor: pointer;
 			}
 			
@@ -1129,34 +1129,34 @@ SEARCH RESULTS
 			.itemsQty.selected{
 				position: relative;
 				left: -1px;
-				background: #F5F5F5;
-				color: #686868;
 				border: solid 1px #CCC;
 				border-radius: 4px;
-				font-weight: 600;
+				background: #F5F5F5;
 				box-shadow: 0 1px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.07);
+				color: #686868;
+				font-weight: 600;
 			}
 
 	.orderByWrapper{
 		position: relative;
-		height: 20px;
 		float: right;
-		margin-right: 10px;	
+		margin-right: 10px;
+		height: 20px;	
 	}
 	
 		.filterLbl{
 			float: left;
-			font-size: 13px;
+			padding: 5px 4px;
 			color: #888;
-			padding: 5px 4px; 
+			font-size: 13px; 
 			
 		}
 		
 		.sortBySel{
-			background: none;
-			width: 160px;
 			padding: 3px;
+			width: 160px;
 			border-color: #DDD;
+			background: none;
 		}
 		
 			.sortBySel:after{
@@ -1169,58 +1169,58 @@ SEARCH RESULTS
 	
 	
 .resultsWrapper{
-	min-height: 40px;
 	margin-top: 20px;
 	padding: 10px 20px;
-	background: #FFF;
+	min-height: 40px;
 	border: solid 1px #EEE;
 	border-radius: 6px;
+	background: #FFF;
 }
 
 	.resultsItemWrapper{
 		position: relative;
-		height: auto;
 		padding: 10px 0;
+		height: auto;
 		border-bottom: solid 1px #EEE;
 	}
 	
 	.resultsItemWrapper.last{
-		border-bottom: none;
 		padding-bottom: 0;
+		border-bottom: none;
 	}
 
 	.pictureWrapper{
 		position: relative;
+		display: inline-block;
 		max-height: 200px;
 		width: 200px;
-		display: inline-block;
 		vertical-align: top;
 	}
 	
 		.pictureWrapper img{
-			border-radius: 2px;
 			display: block;
 			margin: 0 auto;
 			max-width: 200px;
 			max-height: 200px;
+			border-radius: 2px;
 		}
 	
 	.resultsItemDescrip{
 		display: inline-block;
-		vertical-align: top;
 		padding: 5px 10px;
 		width: 55%;
+		vertical-align: top;
 	}
 	
 			.resultsItemName{
-				font-weight: 400;
-				width: 85%;
 				display: inline-block;
+				width: 85%;
+				font-weight: 400;
 			}
 			
 				.resultsItemName a{
-					font-size: 16px;
 					color: #3974B4;
+					font-size: 16px;
 				}
 			
 				.resultsItemName:hover{
@@ -1230,17 +1230,17 @@ SEARCH RESULTS
 				
 			.resultsPublicationDate{
 				display: inline-block;
-				font-size: 12px;
 				color: #888;
+				font-size: 12px;
 			}	
 			
 			.resultsItemPrice{
 				position: absolute;
-				right: 15px;
 				top: 15px;
-				font-size: 18px;
+				right: 15px;
 				color: #686868;
 				text-align: right;
+				font-size: 18px;
 			}
 			
 				.resultsItemPrice .enoferta{
@@ -1258,18 +1258,18 @@ SEARCH RESULTS
 				}
 				
 				.priceDisc{
-					color: #FFF;
-					background: #FF4D4D;
+					padding: 2px 4px;
 					border: solid 1px #FF1A1A;
 					border-left: none;
 					border-radius: 3px;
-					padding: 2px 4px;
+					background: #FF4D4D;
+					color: #FFF;
 				}
 				
 				.featItem .priceDisc, .hmFeatItm .priceDisc{
 					position: absolute;
-					left: 0;
 					top: 10px;
+					left: 0;
 					border-radius: 0 3px 3px 0;
 				}
 			
@@ -1288,12 +1288,12 @@ SEARCH RESULTS
 					}
 			
 				.sellerType{
-					display: inline-block;
 					position: relative;
 					top: 8px;
+					display: inline-block;
+					width: 25px;
 					color: #F55F5F;
 					font-size: 16px;
-					width: 25px;
 				}
 		
 					.sellerType img{
@@ -1301,33 +1301,33 @@ SEARCH RESULTS
 					}
 	
 			.shareList{
+					padding: 10px;
 					width: auto;
 					height: 25px;
-					padding: 10px;
 				}
 				
 				.shareList .social-icon{
 					margin: 0;
 					padding: 0 8px;
+					color: #444;
 					text-align: center;
 					font-size: 20px;
-					color: #444;
 				}
 
 .resultItemBtnWrapper{
 	position: absolute;
-	bottom: 15px;
 	right: 15px;
+	bottom: 15px;
 	display: none;
 }
 
 	.actionsBtn{
-		font-size: 12px;
-		color: #AAA;
+		display: inline-block;
 		padding: 2px 5px;
 		border: solid 1px;
 		border-radius: 4px;
-		display: inline-block;
+		color: #AAA;
+		font-size: 12px;
 		cursor: pointer;	
 	}
 	
@@ -1337,44 +1337,44 @@ SEARCH RESULTS
 
 .paginationWrap{
 	position: relative;
-	text-align: center;
 	margin-top: 10px;
+	text-align: center;
 }
 
 	.pageNumber{
 		display: inline-block;
-		font-size: 16px;
 		padding: 1px 10px 3px;
-		border-radius: 4px;
 		border: solid 1px transparent;
+		border-radius: 4px;
+		font-size: 16px;
 	}
 	
 		.pageNumber:hover{
-			background: #F5F5F5;
 			border-color: #DDD;
+			background: #F5F5F5;
 		}
 	
 	.pageNumber.curentPage{
-		background: #FFF;
-		font-weight: 600;
-		color: #F55F5F;
 		border-color: #DDD;
+		background: #FFF;
+		color: #F55F5F;
+		font-weight: 600;
 	}
 
 	.pageControl {
-		background: #FFF;
+		display: inline-block;
+		margin: 0 5px;
+		padding: 1px 10px 3px;
 		border: solid 1px #CCC;
 		border-radius: 4px;
-		padding: 1px 10px 3px;
-		margin: 0 5px;
-		font-size: 20px;
-		display: inline-block;
+		background: #FFF;
 		vertical-align: -1px;
+		font-size: 20px;
 	}	
 	
 	.pageControl.inactive{
-		opacity: 0.5;
 		position: relative;
+		opacity: 0.5;
 	}
 	
 		.pageControl *{
@@ -1407,15 +1407,15 @@ New items
  ------------------------------------------------------ */	
 
 .newItemsWrap{
-	display: inline-block;
 	position: relative;
-	width: 60%;
+	display: inline-block;
 	margin: 0 1% 25px;
+	width: 60%;
 }
 
 	.newItemsWrap .featContWrap{
-		margin-bottom: 40px;
 		margin-top: 0;
+		margin-bottom: 40px;
 	}
 
 	.newItemsWrap .featTab{
@@ -1434,8 +1434,8 @@ New items
 	}
 
 	.newItemsWrap .featItem{
-		width: 190px;
 		margin: 10px 0 10px 10px;
+		width: 190px;
 		
 	}
 	
@@ -1457,35 +1457,35 @@ STORES
 	
 .storeDetailsWrap{
 	position: relative;
-	background: #FFF;
-	border: solid 1px #DDD;
-	border-radius: 6px;
+	overflow: hidden;
 	margin-bottom: 20px;
 	height: 220px;
-	overflow: hidden;
+	border: solid 1px #DDD;
+	border-radius: 6px;
+	background: #FFF;
 }	
 	
 .expanded{
-	height: auto;
 	padding-bottom: 30px;
+	height: auto;
 }
 	
 	#storeBanner{
 		height: 150px;
 		border-radius: 5px 5px 0 0;
-		background-size: cover;
 		background-position: center center;
+		background-size: cover;
 	}
 	
 	.userProfilePic{
 		position: absolute;
 		top: 15px;
 		left: 15px;
+		overflow: hidden;
 		width: 85px;
 		height: 85px;
-		border-radius: 50%;
-		overflow: hidden;
 		border: solid 3px #FFF;
+		border-radius: 50%;
 		background: #FFF;
 	}
 	
@@ -1494,27 +1494,27 @@ STORES
 		}
 		
 	.storeDetailsWrap .sellerType{
-		width: 40px;
 		position: absolute;
-		left: 105px;
 		top: 10px;
+		left: 105px;
+		width: 40px;
 	}	
 		
 	.storeName{
-		text-align: center;
 		margin: 10px 0 20px;
+		text-align: center;
 	}	
 	
 	.storeInfoWrap{
 		display: inline-block;
-		vertical-align: top;
-		width: 45%;
 		padding: 10px;
+		width: 45%;
+		vertical-align: top;
 	}
 	
 		.storeAddress, .storePhone{
-			color: #888;
 			display: block;
+			color: #888;
 		}
 		
 		.storeAddress{
@@ -1522,9 +1522,9 @@ STORES
 		}
 		
 		.storeSocialWrap .fa{
-			color: #686868;
 			display: inline-block;
 			width: 20px;
+			color: #686868;
 			text-align: center;
 		}	
 		
@@ -1537,29 +1537,29 @@ STORES
 		bottom: 0;
 		left: 50%;
 		margin-left: -66px;
-		color: #686868;
 		padding: 3px 5px;
 		width: 120px;
-		text-align: center;
-		background: #F5F5F5;
 		border: solid 1px #CCC;
 		border-bottom: none;
 		border-radius: 4px 4px 0 0;
+		background: #F5F5F5;
+		color: #686868;
+		text-align: center;
 		font-size: 12px;
 		cursor: pointer;
 		
 	}	
 	
 		.showMoreClicky:hover{
-			background: #EEE;
 			border-color: #DDD;
+			background: #EEE;
 		}
 
 
 #resultsSectionWrapper{
+	margin-top: 10px;
 	width: 100%;
 	height: auto;
-	margin-top: 10px;
 	
 }	
 
@@ -1576,8 +1576,8 @@ STORES
 
 		#searchInStore button{
 			position: absolute;
-			left: 3px;
 			top: 3px;
+			left: 3px;
 			width: 20px;
 			height: 20px;
 			color: #AAA;
@@ -1585,28 +1585,28 @@ STORES
 		}		
 	
 	.itemWrap{
-		width: 29.5%;
-		margin: 0 1.5% 35px;
-		max-height: 340px;
-		max-width: 240px;
-		display: inline-block;
-		vertical-align: top;
 		position: relative;
+		display: inline-block;
+		margin: 0 1.5% 35px;
+		max-width: 240px;
+		max-height: 340px;
+		width: 29.5%;
+		vertical-align: top;
 		
 	}
 	
 	.lteie8 .itemWrap{
+		margin: 0 14px 35px 10px;
+		max-width: none;
 		width: 230px;
 		height: 280px;
-		max-width: none;
-		margin: 0 14px 35px 10px;
 	}
 		
 @media screen and (max-width: 1600px){
 	
 	.itemWrap{
-		width: 30.5%;
 		margin: 0 3% 35px 0;
+		width: 30.5%;
 	}
 	
 	.itemWrap:nth-child(3n+3) {
@@ -1616,46 +1616,46 @@ STORES
 }		
 		
 		.storeDiscTag{
-			background: #F55F5F;
-			color: #FFF;
-			font-weight: 600;
-			padding: 5px;
 			position: absolute;
 			top: 0;
 			left: 0;
 			z-index: 10;
-			border-radius: 5px 0 5px;
+			padding: 5px;
 			border-right: solid 1px #E23F3F;
 			border-bottom: solid 1px #E23F3F;
+			border-radius: 5px 0 5px;
+			background: #F55F5F;
+			color: #FFF;
 			text-shadow: 0 1px rgba(0,0,0,0.2);
+			font-weight: 600;
 		}
 
-		.itemImg{			
+		.itemImg{
+			position: relative;			
 			display: inline-block;
-			height: 0;
+			overflow: hidden;
 			padding-bottom: 100%;
 			width: 100%;
+			height: 0;
 			border: solid 1px #DDD;
 			border-radius: 3px;
 			background: #FFF;
-			position: relative;
-			overflow: hidden;
 			
 		}
 		
 		.lteie8 .itemImg{
-			height: 230px;
-			width: 230px;
 			padding: 0;
+			width: 230px;
+			height: 230px;
 			text-align: center;
 		}
 		
 			.lteie8 .itemImg:before{
-				content: '';
 				display: inline-block;
-				height: 100%;
-				vertical-align: middle;
 				margin-left: -4px;
+				height: 100%;
+				content: '';
+				vertical-align: middle;
 			}
 		
 			.itemImg:hover{
@@ -1663,12 +1663,12 @@ STORES
 			}
 		
 			.itemImg img{
-				max-width: 100%;
-				max-height: 100%;
-				display: inline-block;
 				position: absolute;
 				top: 50%;
 				left: 50%;
+				display: inline-block;
+				max-width: 100%;
+				max-height: 100%;
 				-webkit-transform: translate(-50%, -50%);
 				-moz-transform: translate(-50%, -50%);
 				-ms-transform: translate(-50%, -50%);
@@ -1678,12 +1678,12 @@ STORES
 			}
 			
 			.lteie8 .itemImg img{
+				position: static;
+				display: inline-block;
 				max-width: 230px;
 				max-height: 230px;
-				vertical-align: middle;
-				display: inline-block;
 				border-radius: 0;
-				position: static;
+				vertical-align: middle;
 			}
 
 		
@@ -1693,29 +1693,29 @@ STORES
 		
 		.itemListName{
 			color: #F55F5F;
-			font-size: 14px;
 			font-weight: 600;
+			font-size: 14px;
 		}
 			
 			.itemListPrice{
 				position: static;
-				font-size: 14px;
 				text-align: left;
+				font-size: 14px;
 			}	
 	
 	
 /* contact and about us */	
 	
 .businessInfoWrap{
-	width: 820px;
 	margin: 70px auto 100px;
+	padding: 20px 20px 40px;
+	width: 820px;
+	border: solid 1px #EEE;
+	border-radius: 10px;
 	background: #FFF;
 	background-image: url(../images/bag-transparency.png);
-	background-repeat: no-repeat;
 	background-position: right 100px;
-	border-radius: 10px;
-	border: solid 1px #EEE;
-	padding: 20px 20px 40px;
+	background-repeat: no-repeat;
 	box-shadow: 0 1px 10px rgba(0,0,0,0.04);
 }	
 	
@@ -1738,8 +1738,8 @@ STORES
 	}
 	
 		.businessInfoWrap li{
-			list-style-type: square;
 			margin-left: 25px;
+			list-style-type: square;
 		}
 		
 		.businessInfoWrap a{
@@ -1752,17 +1752,17 @@ STORES
 			}
 	
 	.faqTitle{
-		font-weight: 400;
-		margin-bottom: 10px;
 		margin-top: 30px;
+		margin-bottom: 10px;
 		color: #F55F5F;
+		font-weight: 400;
 		font-style: italic;
 	}
 	
 	.storeList{
-		width: 60%;
-		margin: 0 0 0 18.3%;
 		display: inline-block;
+		margin: 0 0 0 18.3%;
+		width: 60%;
 	}
 	
 		.storeListHeading{
@@ -1839,8 +1839,8 @@ STORES
 		}
 	
 		.landing .btn-search{
-			width: 19%;
 			margin-left: 0;
+			width: 19%;
 		}
 	
 		.videoCont *{
@@ -1850,8 +1850,8 @@ STORES
 
 		
 	.carouselWrap{
-		width: 100%;
 		padding-bottom: 42.9%;
+		width: 100%;
 		height: 0;
 		border-radius: 0;
 	}	
@@ -1873,10 +1873,10 @@ STORES
 	}
 
 		.featTab{
-			text-align: center;
+			margin: 0 auto;
 			padding: 10px 0;
 			width: 80%;
-			margin: 0 auto;
+			text-align: center;
 		}
 
 			.featTab i{
@@ -1885,13 +1885,13 @@ STORES
 			}
 		
 		.hmFeatItm.stores{
-			width: auto;
-			border-radius: 0;
-			border-left: none;
-			border-right: none;
-			border-color: #DDD;
-			margin: 15px auto;
 			display: block;
+			margin: 15px auto;
+			width: auto;
+			border-color: #DDD;
+			border-right: none;
+			border-left: none;
+			border-radius: 0;
 			box-shadow: 0 1px 10px rgba(0,0,0,0.04);
 		}
 		
@@ -1900,8 +1900,8 @@ STORES
 			}
 	
 		.hmFeatItm.articles{
-			width: auto;
 			display: block;
+			width: auto;
 		}
 
 
@@ -1912,20 +1912,20 @@ STORES
 		
 		.genContentWrap{
 			margin-top: 75px;
-			min-width: 0;
-			width: auto;
 			margin-right: 0;
 			padding: 0 5px;
+			min-width: 0;
+			width: auto;
 		}	
 		
 			#categoryFilterWrapper {
-				display: block;
-				width: 95%;
-				min-width: 0;
-				min-height: 0;
 				position: relative;
+				display: block;
 				margin: 0 auto 15px;
 				padding: 0;
+				min-width: 0;
+				min-height: 0;
+				width: 95%;
 				border: none;
 			}	
 			
@@ -1933,73 +1933,73 @@ STORES
 					position: absolute;
 					top: 0;
 					right: 10px;
+					z-index: 202;
+					padding: 8px;
 					color: #FFF;
 					font-size: 22px;
-					padding: 8px;
-					z-index: 202;
 				}
 			
 				.category-heading{
-					text-align: center;
-					color: #FFF;
-					font-size: 20px;
 					position: relative;
-					width: 100%;
 					z-index: 201;
 					padding: 5px 0px;
-					background: #F55F5F;
-					border-radius: 4px;
+					width: 100%;
 					border: solid 1px #E23F3F;
+					border-radius: 4px;
+					background: #F55F5F;
 					box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+					color: #FFF;
+					text-align: center;
+					font-size: 20px;
 				}
 				
 				.categoryPane{
 					position: absolute;
-					left: 0;
 					top: 0;
-					visibility: hidden;
-					opacity: 0;
+					left: 0;
 					z-index: 200;
-					background: #FFF;
-					box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+					visibility: hidden;
 					border: solid 1px #DDD;
 					border-top: none;
 					border-radius: 0 0 5px 5px;
+					background: #FFF;
+					box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+					opacity: 0;
 				}	
 								
 					.categoryPane.shown{
+						top: 44px;
 						visibility: visible;
 						opacity: 1;
-						top: 44px;
 						
 					}
 						
 						.resultsSubCategory{
-							font-size: 17px;
-							text-align: center;
 							border-radius: 0;
+							text-align: center;
+							font-size: 17px;
 						}
 						
 						.categoryPane ul{
-							text-align: center;
 							margin: 0;
+							text-align: center;
 						}
 						
 							.categoryPane ul li{
-								font-size: 17px;
 								padding: 5px 0;
+								font-size: 17px;
 							}
 							
 						.categoryPane .view-more{
-							text-align: center;
 							padding: 5px 0;
+							text-align: center;
 						}	
 						
 				
 				.resultsCount{
+					display: inline-block;
 					float: none;
 					margin-bottom: 10px;
-					display: inline-block;
 					font-size: 16px;
 				}
 				
@@ -2010,16 +2010,16 @@ STORES
 				}
 				
 					.filterLbl{
-						float: none;
 						display: inline-block;
+						float: none;
 						font-weight: 400;
 					}
 					
 					.xResultsList{
-						float: none;
 						display: inline-block;
-						vertical-align: top;
+						float: none;
 						margin: 0 5px;
+						vertical-align: top;
 					}
 					
 				.orderByWrapper {
@@ -2056,33 +2056,33 @@ STORES
 				
 				
 			.resultsDisplayArea{
-				width: auto;
-				min-height: 0;
-				float: none;
 				display: block;
+				float: none;
 				margin: 0 auto;
+				min-height: 0;
+				width: auto;
 			}	
 			
 				.selectedCategory{
-					text-align: center;
 					display: none;
+					text-align: center;
 				}
 			
 				.resultsWrapper{
-					border-radius: 0;
 					padding: 10px 0;
+					border-radius: 0;
 				}
 			
 				.resultsItemWrapper {
-					width: auto;
-					max-height: none;
 					padding: 8px 1px;
+					max-height: none;
+					width: auto;
 				}	
 			
 					.pictureWrapper{
+						max-height: none;
 						width: 85px;
 						height: 85px;
-						max-height: none;
 					}
 					
 						.pictureWrapper img{
@@ -2091,8 +2091,8 @@ STORES
 						}
 					
 					.resultsItemDescrip{
-						width: 70%;
 						padding: 0;
+						width: 70%;
 					}
 					
 						.resultsItemName{
@@ -2105,11 +2105,11 @@ STORES
 							}
 						
 						.resultsItemPrice{
-							display: inline-block;
-							vertical-align: top;
 							position: static;
-							font-size: 13px;
+							display: inline-block;
 							width: 48%;
+							vertical-align: top;
+							font-size: 13px;
 						}
 						
 							.origPrice, .resultsPublicationDate{
@@ -2120,22 +2120,22 @@ STORES
 						top: 10px;
 						right: 0;
 						bottom: auto;
+						display: none;
 						border: solid 1px #686868;
 						border-radius: 3px;
-						display: none;
 					}
 					
 						.actionsBtn{
-							float: none;
-							font-size: 15px;
-							color: #686868;
-							font-weight: 600;
-							letter-spacing: 1px;
-							margin: auto;
-							cursor: pointer;
 							display: block;
-							text-align: center;
+							float: none;
+							margin: auto;
 							padding: 3px 0 8px;
+							color: #686868;
+							text-align: center;
+							letter-spacing: 1px;
+							font-weight: 600;
+							font-size: 15px;
+							cursor: pointer;
 						}	
 						
 			.adsWrap{
@@ -2145,14 +2145,14 @@ STORES
 /* New items */
 
 .newItemsWrap{
-	width: auto;
 	display: block;
+	width: auto;
 }		
 				
 	.newItemsWrap .featItem{
 		display: block;
-		width: 300px;
 		margin: 10px auto;
+		width: 300px;
 		
 	}
 	
@@ -2170,10 +2170,10 @@ STORES
 /* start stores */
 
 .storeDetailsWrap{
-	border-radius: 0;
 	border-color: #DDD;
 	border-right: none;
 	border-left: none;
+	border-radius: 0;
 }
 
 	#storeBanner{
@@ -2181,10 +2181,10 @@ STORES
 	}
 	
 	.resultsFilterTopHeader{
-		border-radius: 0;
 		border-color: #CCC;
 		border-right: none;
 		border-left: none;
+		border-radius: 0;
 	}
 	
 		.storeInfoWrap{
@@ -2193,19 +2193,19 @@ STORES
 		}
 
 .itemWrap{
-	width: 300px;
-	height: 355px;
 	display: block;
 	margin: 0 auto 20px;
-	max-height: none;
 	max-width: none;
+	max-height: none;
+	width: 300px;
+	height: 355px;
 }
 
 .itemImg{
-	height: 300px;
-	width: 300px;
-	border-color: #DDD;
 	padding: 0;
+	width: 300px;
+	height: 300px;
+	border-color: #DDD;
 }				
 		
 	.itemImg img{
@@ -2222,24 +2222,24 @@ STORES
 /* start items.php */
 
 .itemPreviewsWrapper{
-	width: 100%;
 	margin-bottom: 10px;
+	width: 100%;
 }
 
 	.itemMainPrev{
 		left: 0;
 		display: block;
-		box-sizing: border-box;
-		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		width: 100%;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
 		margin: 0 auto;
+		width: 100%;
 	}		
 		
 .itemInfoWrapper{
-	width: auto;
 	display: block;
 	margin-bottom: 15px;
+	width: auto;
 }	
 
 	.itemInfoWrapper .itemPrice{
@@ -2248,13 +2248,13 @@ STORES
 	
 	.actionBar{
 		margin: 0 auto;
-		text-align: center;
 		width: auto;
+		text-align: center;
 	}
 		
 .sellerInfoWrapper{
-	width: auto;
 	float: none;
+	width: auto;
 }		
 
 /* coupon sections */
@@ -2268,22 +2268,22 @@ STORES
 	}
 	
 	.qtyBox{
-		vertical-align: top;
 		display: inline-block;
 		padding: 13px 7px;
+		vertical-align: top;
 	}
 	
 	.actionBtn{
-		font-size: 20px;
 		padding: 10px 35px;
+		font-size: 20px;
 	}
 
 .descrip-area, .map-wrap{
-	width: auto;
 	display: block;
 	float: none;
-	border: none;
 	padding: 0;
+	width: auto;
+	border: none;
 }
 
 	.map-canvas{
@@ -2314,15 +2314,15 @@ STORES
 /* store list */
 
 .storeList{
-	width: 96%;
-	margin: 60px auto;
 	display: block;
+	margin: 60px auto;
+	width: 96%;
 }
 	
 	.listWrapper{
 		display: block;
-		width: auto;
 		margin: 0 0 25px;
+		width: auto;
 	}
 			
 				
