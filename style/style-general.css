@@ -1,11 +1,6 @@
 /* ------------------------------------------------------
 HOME
  ------------------------------------------------------ */
-/*
-.landing{
-	background: url(bg.png);
-}
-*/
 
 .landing #header{
 	background: none;
@@ -193,7 +188,6 @@ HOME
 				position: relative;
 				display: inline-block;
 				cursor: pointer;
-				/* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
 				border: solid 1px #B3B3B3;
 				
 				-webkit-perspective: 	200px;
@@ -274,29 +268,7 @@ HOME
 	.featContWrap{
 		position: relative;
 		margin-top: 30px;
-	}
-	
-/*
-		.specialFeatureWrapper{
-			position: relative;
-			float: left;
-			width: 198px;
-			background: rgba(255,255,255,0.5);
-			border: solid 1px #DDD;
-			box-shadow: 0 1px #DDD;
-			border-radius: 5px;
-			text-align: center;
-			padding: 10px;
-			box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-		}
-			
-			.specialFeatureWrapper .ftItmName{
-				font-size: 13px;
-			}
-*/
-			
+	}		
 			
 			.ftItmName:hover{
 				text-decoration: underline;
@@ -394,23 +366,13 @@ HOME
 				overflow: hidden;
 				line-height: normal;
 			}
-			
-/*
-			.specFeaturedPreview{
-				width: 150px;
-				height: 150px;
-				line-height: 145px;
-				display: block;
-				margin: 0 auto;
-			}
-*/
-			
-				.featuredPreview */* , .specFeaturedPreview * */{
+
+				.featuredPreview *{
 					vertical-align: middle;
 					text-align: center;
 				}
 			
-				.featuredPreview img/* , .specFeaturedPreview img */{
+				.featuredPreview img{
 					max-width: 100%;
 					max-height: 100%;
 					display: inline-block;
@@ -878,7 +840,6 @@ ITEMS DETAIL
 	}
 	
 		.map-canvas{
-			/* width: 80%; */
 			height: 300px;
 			margin-top: 10px;
 		}
@@ -1083,8 +1044,6 @@ SEARCH RESULTS
 	background: #FBFBFB;
 	border: solid 1px #DDD;
 	border-radius: 4px;
-	/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03), inset 0 1px rgba(255, 255, 255, 0.3); */
-	
 }
 
 	.resultsCount{
@@ -1215,7 +1174,6 @@ SEARCH RESULTS
 	padding: 10px 20px;
 	background: #FFF;
 	border: solid 1px #EEE;
-	/* box-shadow: 0 1px 10px rgba(0,0,0,0.04); */
 	border-radius: 6px;
 }
 
@@ -1353,7 +1311,6 @@ SEARCH RESULTS
 					padding: 0 8px;
 					text-align: center;
 					font-size: 20px;
-					/* text-shadow: 0 1px white; */
 					color: #444;
 				}
 
@@ -1502,7 +1459,6 @@ STORES
 	position: relative;
 	background: #FFF;
 	border: solid 1px #DDD;
-	/* box-shadow: 0 1px 10px rgba(0,0,0,0.04); */
 	border-radius: 6px;
 	margin-bottom: 20px;
 	height: 220px;
@@ -1627,62 +1583,6 @@ STORES
 			color: #AAA;
 			font-size: 12px;
 		}		
-		
-	
-/*
-.storeDisplayTabs{
-	margin-top: 25px;
-	margin-left: 3.5%;
-}	
-	
-	.storeDisplayTabs a{
-		position: relative;
-		bottom: 2px;
-		color: #888;
-		font-size: 14px;
-		font-weight: 100;
-		border: solid 1px #CCC;
-		padding: 3px 9px;
-		margin-right: 5px;
-		border-radius: 2px;
-		background: rgba(0,0,0,0.04);
-	}	
-	
-	.storeDisplayTabs a.current{
-		background: none;
-	}
-*/
-	
-/*
-.storeDisplayContent{
-	width: 100%;
-	height: auto;
-	min-height: 40px;
-}	
-
-
-	#aboutStore{
-		width: 100%;
-		height: 100%;
-		background: #FFF;
-		border-radius: 3px;
-		border: solid 1px #CCC;
-	}
-*/
-		
-
-	
-/* Results different style */
-	
-/*
-	.storeItemsWrap{
-		background: none;
-		border: none;
-		box-shadow: none;
-		margin-top: 10px;
-		padding: 0;
-	}
-*/
 	
 	.itemWrap{
 		width: 29.5%;
@@ -1730,20 +1630,7 @@ STORES
 			text-shadow: 0 1px rgba(0,0,0,0.2);
 		}
 
-		.itemImg{
-			/*
-display: inline-block;
-			height: 230px;
-			max-height: none;
-			width: 230px;
-			border: solid 1px #DDD;
-			border-radius: 5px;
-			background: #FFF;
-			text-align: center;
-			box-shadow: 0 1px 10px rgba(0,0,0,0.04);
-*/
-
-			
+		.itemImg{			
 			display: inline-block;
 			height: 0;
 			padding-bottom: 100%;
@@ -1753,7 +1640,6 @@ display: inline-block;
 			background: #FFF;
 			position: relative;
 			overflow: hidden;
-			/* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.04); */
 			
 		}
 		
@@ -1777,14 +1663,6 @@ display: inline-block;
 			}
 		
 			.itemImg img{
-				/*
-max-width: 230px;
-				max-height: 230px;
-				vertical-align: middle;
-				display: inline-block;
-				border-radius: 0;
-*/
-
 				max-width: 100%;
 				max-height: 100%;
 				display: inline-block;
@@ -1817,12 +1695,6 @@ max-width: 230px;
 			color: #F55F5F;
 			font-size: 14px;
 			font-weight: 600;
-			/*
-position: relative;
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-*/
 		}
 			
 			.itemListPrice{
@@ -1923,29 +1795,7 @@ position: relative;
 			text-align: justify;
 		}		
 	
-	
-
-@media screen and (max-width: 1204px), screen and (max-device-width: 1204px){
-	
-/*
-	.couponsList .itemWrap{
-		width: 185px;
-		height: 280px;
-		margin-left: 0;
-	}
-
-		.couponsList .itemImg{
-			height: 185px;
-			width: 185px;
-		}
 		
-			.couponsList .itemImg img{
-				max-width: 185px;
-				max-height: 185px;
-			}
-*/
-	
-}	
 	
 @media screen and (max-device-width: 600px){
 	
