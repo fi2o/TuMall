@@ -903,8 +903,8 @@ ITEMS DETAIL
 	display: inline-block;
 	padding: 0 10px;
 	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	-moz-box-sizing: 	border-box;
+	box-sizing: 		border-box;
 }
 
 
@@ -948,9 +948,9 @@ SEARCH RESULTS
 	padding: 0 10px;
 	min-height: 150px;
 	border-right: dashed 1px #CCC;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: 	border-box;
+	box-sizing: 		border-box;
 }
 
 	#categoryFilterWrapper > div{
@@ -1031,9 +1031,9 @@ SEARCH RESULTS
 		margin-bottom: 10px;
 		font-weight: 100;
 		font-size: 20px;
-		background: hsl(0, 88%, 67%);
-		border-bottom: solid 2px hsl(0, 88%, 60%);
-		color: hsl(0, 100%, 100%);
+		background: #F55F5F;
+		border-bottom: solid 2px #F33F3F;
+		color: #FFF;
 		padding: 5px 10px;
 		border-radius: 3px 3px 1px 1px;
 	}
