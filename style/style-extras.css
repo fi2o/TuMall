@@ -68,7 +68,7 @@
 			.tipoUsuario:checked + .radLbl::after{
 				content: '\F00C';
 				color: #FFF;
-				background: #F55F5F;
+				background: #FF5757;
 				font-family: 'FontAwesome';
 				font-size: 20px;
 				text-shadow: 0 1px rgba(0,0,0,0.15);
@@ -95,7 +95,7 @@
 			margin: 0 auto;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			background: #F55F5F;
+			background: #FF5757;
 			border-color: #E23F3F;
 			box-shadow: 0 2px #E23F3F, inset 0 -1px rgba(255,255,255,0.075);
 			width: 80%;
@@ -169,7 +169,7 @@
 	}
 	
 	.mainHeading{
-		color: #F55F5F;
+		color: #FF5757;
 		font-size: 20px;
 		margin-top: 15px;
 		border-top: dashed 1px;

@@ -58,7 +58,13 @@ $sM = new stringManager();
 				<span class="mobSearchBtn"></span>			
 				
 				<div class="logoWrap">
-					<a href="/i/home" class="mainLogo"><img src="/i/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" /></a>
+					<h1 class="mainLogo">
+						<a href="/i/home" >
+							Tu Mall
+							<img src="/i/images/logo-min-NS.png" alt="Logo TuMall" class="replace2X" />
+						</a>
+					</h1>
+					
 				</div>
 				
 				<div class="menuTopRight">

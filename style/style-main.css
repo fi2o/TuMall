@@ -59,7 +59,7 @@ input:-webkit-autofill{
 }
 
 	.txtField:focus{
-		border-color: #F55F5F;
+		border-color: #FF5757;
 		box-shadow: 0 1px 1px rgba(0,0,0,.1);
 	}
 	
@@ -87,7 +87,7 @@ input:-webkit-autofill{
 }	
 
 	.styledSelect:hover .normalSelect, .styledSelect:hover{
-		color: #F55F5F;
+		color: #FF5757;
 	}
 	
 	.styledSelect:after{
@@ -335,9 +335,9 @@ input:-webkit-autofill{
 				}
 					
 					.logoutBtn:hover{
-						background: #F55F5F;
+						background: #FF5757;
 						color: #FFF;
-						border-color: #F55F5F;
+						border-color: #FF5757;
 					}
 				
 				.loginBtn{
@@ -369,6 +369,9 @@ input:-webkit-autofill{
 				left: 10px;
 				width: 170px;
 				display: inline-block;
+				color: transparent;
+				font-size: 0;
+				vertical-align: top;
 			}	
 			
 				.mainLogo img{
@@ -422,7 +425,7 @@ input:-webkit-autofill{
 		
 					
 						.genSrchTxt:focus{
-							border-color: #F55F5F;
+							border-color: #FF5757;
 							color: #686868;
 						}
 			
@@ -434,7 +437,7 @@ input:-webkit-autofill{
 					width: 10%;
 					height: 37px;
 					line-height: 20px;
-					background: #F55F5F;
+					background: #FF5757;
 					margin-left: 4px;
 					color: #FFF;
 					font-size: 18px;
@@ -476,7 +479,7 @@ input:-webkit-autofill{
 			}
 			
 				.noContentMsg a{
-					color: #F55F5F;
+					color: #FF5757;
 					font-weight: 600;
 				}
 				
@@ -608,7 +611,7 @@ input:-webkit-autofill{
 			
 				.fooGroupTitle{
 					font-size: 16px;
-					color: #F55F5F;
+					color: #FF5757;
 					margin-bottom: 3px;
 				}
 			

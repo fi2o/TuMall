@@ -113,11 +113,11 @@
 		}
 	
 	.settMenuItm:hover{
-		color: #F55F5F;
+		color: #FF5757;
 	}
 	
 	.settMenuItm.active{
-		background: #F55F5F;
+		background: #FF5757;
 		border: solid 1px #E05151;
 		border-radius: 4px 0 0 4px;
 		color: #FFF;
@@ -264,7 +264,7 @@
 		
 			.settLegend{
 				font-size: 22px;
-				color: #F55F5F;
+				color: #FF5757;
 				font-weight: 300;
 				margin-bottom: 25px;
 			}
@@ -289,7 +289,7 @@
 						top: 1px;
 						width: 30px;
 						height: 30px;
-						background: #F55F5F;
+						background: #FF5757;
 						border-radius: 50%;
 					}	
 	
@@ -393,7 +393,7 @@
 			
 				.error{
 					box-shadow: 0 0 0 1px #F7776C !important;
-					border-color: #F55F5F;
+					border-color: #FF5757;
 					animation: 			borderPop .15s ease-in-out both;
 					-webkit-animation: 	borderPop .15s ease-in-out both;
 					-moz-animation: 	borderPop .15s ease-in-out both;
@@ -837,7 +837,7 @@
 			}
 			
 			.addImgWrap .itmImageMask:after:hover{
-				background: #F55F5F;
+				background: #FF5757;
 			}
 		
 		.usrImageMask{
@@ -916,7 +916,7 @@
 			}
 			
 			.itmListPrice{
-				color: #F55F5F;
+				color: #FF5757;
 				font-size: 15px;
 			}
 			
@@ -1011,7 +1011,7 @@
 					}
 				
 				.itmRemoveBtn:hover, .banButton:hover{
-					background: #F55F5F;
+					background: #FF5757;
 					border-color: #E23F3F;
 				}
 				
@@ -1060,7 +1060,7 @@
 	}
 
 	.tabItm.active{
-		color: #F55F5F;
+		color: #FF5757;
 	}
 	
 	.storeCurrencySel{
@@ -1889,7 +1889,7 @@
 			}
 		
 		.ui-datepicker-current-day{
-			background: #F55F5F;
+			background: #FF5757;
 		}
 	
 			a.ui-state-active{
@@ -2007,7 +2007,7 @@
 			}
 			
 				.removeFav:hover{
-					background: #F55F5F;
+					background: #FF5757;
 					border-color: #E23F3F;
 					color: #FFF;
 				}
@@ -2392,7 +2392,7 @@
 					right: 5%;
 					left: auto;
 					top: 10px;
-					color: #F55F5F;
+					color: #FF5757;
 					
 				}
 		

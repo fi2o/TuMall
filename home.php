@@ -22,7 +22,10 @@ session_write_close();
 	require_once('templates/headLand.php');
         
 ?>
-			<img class="homeLogo" src="images/logo-max.png" alt="TuMall Logo" />
+		<!-- 	<img class="homeLogo" src="images/logo-max.png" alt="TuMall Logo" /> -->
+			
+			<h1 class="homeLogo">Tu Mall</h1>
+			
 			<form id="searchForm" class="hmSrchWrap" action="#">
 					
 					<input class="hmSrchTxt transTw" type="text" />
